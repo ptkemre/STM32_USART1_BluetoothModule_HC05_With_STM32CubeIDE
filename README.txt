@@ -38,6 +38,7 @@ NOTE: When you generate the code, use to my main.c code. Copy all of its content
 If you don't want to deal with these steps, you can simply upload the .hex file I provided at the same location. However, you won't be able to modify that project. You can use to "STM32CubeProgrammer" for this.
 
 
+Once you upload the code, all you need to do is download a terminal application on your phone and connect to the Bluetooth module. Then, enter the following password: "1504". The MCU will send you a message saying "Correct password". However, the line ending settings in the terminal app are important. If they exist, make sure to configure them like this: (Settings → Send → Newline = None).
 
 
 
